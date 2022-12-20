@@ -16,6 +16,10 @@ module.exports = {
         "myDarkModeBlack": "#141D2F",
         "myDarkModeBlue": "#1E2A47",        
       },
+
+      variants: {
+        fill: ['hover', 'focus'], // this line does the trick
+      },
     },
   },
   plugins: [],
